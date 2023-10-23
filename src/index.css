@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.gd {
+  width: 90%;
+  height: 60%;
+  border-radius: 0px 180px 160px 0px;
+}
