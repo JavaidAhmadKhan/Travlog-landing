@@ -29,7 +29,11 @@ const Card = () => {
         <>
           <div className="bg-slate-100 rounded-2xl flex items-center justify-center flex-row py-3 px-6">
             <div className="flex flex-col items-center justify-center ">
-              <img className="object-cover object-center" src={card.imageUrl} alt="booking" />
+              <img
+                className="object-cover object-center"
+                src={card.imageUrl}
+                alt="booking"
+              />
               <h2 className="mt-8 text-center">{card.title}</h2>
               <p className="text-center text-[#191825] text-base font-normal mt-8">
                 {card.description}

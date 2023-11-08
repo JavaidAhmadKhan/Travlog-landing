@@ -1,10 +1,11 @@
 import Banner from "./components/Banner";
-import BgDivider from "./components/BgDivider";
 import KeyFeatures from "./components/KeyFeatures";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import { Subscribe } from "./components/Subscribe";
 import TopDestinations from "./components/TopDestinations";
 import TravelPoint from "./components/TravelPoint";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <TopDestinations />
       <TravelPoint />
       <KeyFeatures />
-      <BgDivider/>
+      <Testimonials />
+      <Subscribe />
     </>
   );
 }

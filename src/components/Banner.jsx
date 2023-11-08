@@ -41,7 +41,7 @@ const Banner = () => {
             src={BannerImg}
             alt="banner"
           />
-          <div className="absolute top-96 right-[-50px]">
+          <div className="absolute top-24 lg:top-96 right-[-5px] lg:right-[-50px] ">
             <button className="flex flex-row-reverse items-center gap-2 bg-white py-2 px-2 rounded-2xl  font-bold text-sm">
               Top Places
               <MapPin color="yellow" size={18} />

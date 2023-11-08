@@ -55,7 +55,7 @@ const KeyFeatures = () => {
               <img className="object-contain object-center" src={Bg_3} alt="" />
             </div>
           </div>
-          <div className="absolute right-[150px] bottom-[-2300px]">
+          <div className="absolute right-[45px] lg:right-[150px] bottom-[-4500px] lg:bottom-[-2300px]">
             <button
               onClick={submitHandler}
               className="flex items-center gap-4 bg-white py-3 px-6 rounded-3xl text-[#191825] text-[23px] font-bold"
@@ -66,7 +66,7 @@ const KeyFeatures = () => {
           </div>
         </div>
       </div>
-      <div className="pt-24 px-24">
+      <div className="pt-[500px] lg:pt-24 px-4 lg:px-24">
         <div className=" flex items-center gap-4 ">
           <div className="bg-[#FF5722] py-6 px-6 rounded-2xl">
             <MapPinIcon color="#fff" />
