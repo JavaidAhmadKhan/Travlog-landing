@@ -1,4 +1,3 @@
-import React from "react";
 import { Star } from "lucide-react";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
@@ -13,7 +12,7 @@ import "swiper/css/scrollbar";
 
 const Testimonials = () => {
   return (
-    <div className=" pt-64 pb-24 px-24">
+    <div className=" pt-24 lg:pt-64 pb-4 lg:pb-24 px-4 lg:px-24">
       <div>
         <h1 className="text-center text-[#F85E9F] text-[23px] font-bold uppercase pt-4">
           Testimonials

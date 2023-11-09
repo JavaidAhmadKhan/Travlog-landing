@@ -1,4 +1,3 @@
-import React from "react";
 import { Calendar, MapPin, MapPinIcon, Ticket } from "lucide-react";
 import Bg_1 from "../assets/images/bg_image.png";
 import Bg_2 from "../assets/images/bg_1.png";

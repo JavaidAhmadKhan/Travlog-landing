@@ -1,4 +1,3 @@
-import React from "react";
 import Des1Img from "../assets/images/des1.jpg";
 import Des2Img from "../assets/images/des2.jpg";
 import Des3Img from "../assets/images/des3.jpg";

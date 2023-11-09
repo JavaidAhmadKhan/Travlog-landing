@@ -1,4 +1,3 @@
-import React from "react";
 import EasyBookingImg from "../assets/images/booking.png";
 import DestinationImg from "../assets/images/destination.png";
 

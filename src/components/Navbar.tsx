@@ -2,7 +2,6 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import Logo from "../assets/images/Logo.png";
-import React from "react";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
@@ -87,11 +86,11 @@ export default function Navbar() {
                 </Disclosure.Button>
               ))}
               <div className="flex flex-col">
-                <div className="flex items-center gap-4">
-                  <button className="bg-[#5D50C6] rounded-lg py-2 px-4">
+                <div className="flex flex-col items-start gap-4">
+                  <button className="bg-[#F85E9F] rounded-lg py-2 px-4 text-white">
                     Log In
                   </button>
-                  <button className="bg-[#5D50C6] rounded-lg py-2 px-4">
+                  <button className="bg-[#F85E9F] rounded-lg py-2 px-4 text-white">
                     Sign Up
                   </button>
                 </div>

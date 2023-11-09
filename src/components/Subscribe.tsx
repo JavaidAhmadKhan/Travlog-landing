@@ -1,12 +1,15 @@
 import { Mail } from "lucide-react";
 import SubscribImg from "../assets/images/subscribe.png";
-import React from "react";
 
 export const Subscribe = () => {
   return (
-    <div className="px-4 lg:px-24 py-36 relative">
+    <div className="px-4 lg:px-24 py-3 lg:py-36 relative">
       <div className="absolute top-24">
-        <img src={SubscribImg} alt="subscribe" />
+        <img
+          className="object-contain w-auto h-auto"
+          src={SubscribImg}
+          alt="subscribe"
+        />
       </div>
       <div className="bg-pink-100/20 py-16 mx-4 lg:mx-24 pt-36 lg:pt-0">
         <div className="py-4 lg:py-16 px-4 lg:px-16">

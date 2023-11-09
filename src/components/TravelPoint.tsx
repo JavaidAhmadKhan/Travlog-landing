@@ -1,4 +1,3 @@
-import React from "react";
 import TravelGirl from "../assets/images/travel.png";
 
 const travelData = [

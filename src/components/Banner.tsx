@@ -1,4 +1,3 @@
-import React from "react";
 import clientsImg from "../assets/images/client.png";
 import BannerImg from "../assets/images/banner.png";
 import bgBanner from "../assets/images/layer.png";

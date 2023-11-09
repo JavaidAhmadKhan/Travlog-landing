@@ -1,5 +1,3 @@
-import React from "react";
-
 import Banner from "./components/Banner";
 import KeyFeatures from "./components/KeyFeatures";
 import Navbar from "./components/Navbar";
