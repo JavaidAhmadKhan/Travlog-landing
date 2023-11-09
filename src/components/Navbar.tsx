@@ -2,6 +2,7 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import Logo from "../assets/images/Logo.png";
+import React from "react";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
@@ -10,7 +11,7 @@ const navigation = [
   { name: "Contact", href: "#", current: false },
 ];
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 

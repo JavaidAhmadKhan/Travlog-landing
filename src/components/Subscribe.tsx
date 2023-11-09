@@ -1,5 +1,6 @@
 import { Mail } from "lucide-react";
 import SubscribImg from "../assets/images/subscribe.png";
+import React from "react";
 
 export const Subscribe = () => {
   return (
