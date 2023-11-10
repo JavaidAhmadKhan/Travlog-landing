@@ -22,19 +22,23 @@ export const Subscribe = () => {
         </div>
         <div>
           <form className="flex items-center justify-between gap-4 pt-12 px-4 lg:px-16">
-            <Mail strokeWidth={2} />
-            <input
-              required
-              type="email"
-              placeholder="Your Email"
-              className="bg-white py-3 w-full rounded-2xl outline-none placeholder-[#191825BF] font-bold text-[16px]"
-            />
-            <button
-              type="submit"
-              className="bg-[#5D50C6] px-6 py-3 rounded-2xl text-white ml-auto"
-            >
-              Subscribe
-            </button>
+            <div className="flex flex-col lg:flex-row gap-4 w-full">
+              <div className="flex items-center gap-2 w-full">
+              <Mail strokeWidth={2} />
+              <input
+                required
+                type="email"
+                placeholder="Your Email"
+                className="bg-white py-3 w-full rounded-2xl outline-none placeholder-[#191825BF]  font-bold text-[16px]"
+              />
+              </div>
+              <button
+                type="submit"
+                className="flex  bg-[#5D50C6] px-6 py-3 rounded-2xl text-white"
+              >
+                Subscribe
+              </button>
+            </div>
           </form>
         </div>
       </div>
