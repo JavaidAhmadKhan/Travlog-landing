@@ -11,8 +11,8 @@ export const Subscribe = () => {
           alt="subscribe"
         />
       </div>
-      <div className="bg-pink-100/20 py-16 mx-4 lg:mx-24 pt-36 lg:pt-0">
-        <div className="py-4 lg:py-16 px-4 lg:px-16">
+      <div className="bg-pink-100/80 py-16 mx-4 lg:mx-24 pt-36 lg:pt-0 rounded-lg">
+        <div className="py-4 lg:py-16 px-4 lg:px-16 pt-24">
           <h1 className="text-[#F85E9F] text-[18px] lg:text-[23px] font-bold uppercase text-center">
             subscribe to our newsletter
           </h1>

@@ -5,6 +5,7 @@ import { Star } from "lucide-react";
 
 const destinationData = [
   {
+    id: 1,
     imageUrl: Des1Img,
     title: "Paradise Beach, Bantayan Island",
     price: "550.16",
@@ -12,6 +13,7 @@ const destinationData = [
     rating: "4.8",
   },
   {
+    id: 2,
     imageUrl: Des2Img,
     title: "Ocean with full of Colors",
     price: "210",
@@ -19,6 +21,7 @@ const destinationData = [
     rating: "4.5",
   },
   {
+    id: 3,
     imageUrl: Des3Img,
     title: "Mountain View, Above the cloud",
     price: "150",
@@ -42,7 +45,7 @@ const TopDestinations = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 px-4 lg:px-24 gap-4 pt-6 pb-6 ">
         {destinationData.map((item) => (
-          <div className="">
+          <div key={item.id}>
             <img
               className="rounded-t-2xl object-cover object-center w-full h-auto "
               src={item.imageUrl}

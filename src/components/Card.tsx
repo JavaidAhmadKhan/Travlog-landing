@@ -3,17 +3,20 @@ import DestinationImg from "../assets/images/destination.png";
 
 const data = [
   {
+    id: 1,
     imageUrl: DestinationImg,
     title: "Best Tour Guide",
     description:
       "What looked like a small patch of purple grass, above five feet.",
   },
   {
+    id: 2,
     imageUrl: EasyBookingImg,
     title: "Easy Booking",
     description: "Square, was moving across the sand in their direction.",
   },
   {
+    id: 3,
     imageUrl: "../assets/images/booking.png",
     title: "Best Tour Guide",
     description:
@@ -25,7 +28,7 @@ const Card = () => {
   return (
     <>
       {data.slice(0, 2).map((card) => (
-        <>
+        <div key={card.id}>
           <div className="bg-slate-100 rounded-2xl flex items-center justify-center flex-row py-3 px-6">
             <div className="flex flex-col items-center justify-center ">
               <img
@@ -39,7 +42,7 @@ const Card = () => {
               </p>
             </div>
           </div>
-        </>
+        </div>
       ))}
     </>
   );

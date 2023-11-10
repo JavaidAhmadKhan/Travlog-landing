@@ -6,6 +6,7 @@ import { Subscribe } from "./components/Subscribe";
 import TopDestinations from "./components/TopDestinations";
 import TravelPoint from "./components/TravelPoint";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <KeyFeatures />
       <Testimonials />
       <Subscribe />
+      <Footer />
     </>
   );
 }

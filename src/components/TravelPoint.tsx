@@ -2,18 +2,22 @@ import TravelGirl from "../assets/images/travel.png";
 
 const travelData = [
   {
+    id: 1,
     totalPackages: "100+",
     packageName: "Holiday Package",
   },
   {
+    id: 2,
     totalPackages: "100+",
     packageName: "Holiday Package",
   },
   {
+    id: 3,
     totalPackages: "100+",
     packageName: "Holiday Package",
   },
   {
+    id: 4,
     totalPackages: "100+",
     packageName: "Holiday Package",
   },
@@ -41,7 +45,7 @@ const TravelPoint = () => {
           <div>
             <div className="grid grid-cols-2 gap-4 max-w-fit">
               {travelData.map((travel) => (
-                <>
+                <div key={travel.id}>
                   <div className="bg-slate-100 p-2 rounded-2xl ">
                     <h2 className="text-[#FF5722] text-[35px] font-bold text-center">
                       {travel.totalPackages}
@@ -50,7 +54,7 @@ const TravelPoint = () => {
                       {travel.packageName}
                     </p>
                   </div>
-                </>
+                </div>
               ))}
             </div>
           </div>
